@@ -14,4 +14,4 @@ why?
 
 Gebruik dit script voor ldap provisioning bijvoorbeeld 
 - je kunt ldapadd direct vanuit docker-compose.yml starten
-- je kunt ook /commands/provision.sh draaien en dier met variabelen vullen
+- of zelf scripts maken, zie 'stack-openldap'
