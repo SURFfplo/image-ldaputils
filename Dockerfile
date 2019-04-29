@@ -7,8 +7,6 @@ RUN apk update \
   && apk add openldap-clients \
   && rm -rf /var/cache/apk/*
 
-COPY commands /commands
-
 USER nobody
 CMD echo "available commands:"; ls /usr/bin | grep ldap
 
